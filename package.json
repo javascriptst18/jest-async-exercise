@@ -8,7 +8,7 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watchAll",
-    "db:serve" : "./node_modules/json-server/bin/index.js --watch db.json --port 3005",
+    "db:serve" : "npx json-server --watch db.json --port 3005",
     "test:serve": "concurrently --kill-others \"npm:db:serve\" \"jest --watchAll\""
   },
   "dependencies": {
