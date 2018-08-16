@@ -24,6 +24,8 @@
   "jest": {
     "setupFiles": [
       "jest-localstorage-mock"
-    ]
+    ],
+    "verbose": true,
+    "testURL": "http://localhost/"
   }
 }
